@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+  <div class="todo-list">
+    <div class="header" style="background-color: #de3f53; display: flex; justify-content: center;">
+      <h2>TO DO LIST</h2>
+    </div>
+    <div class="add-task" style="background-color: #3d4979;">
+      <input type="text" id="taskInput" placeholder="Add New Task" style="font-family: Garamond;">
+      <button id="addTaskButton" onclick="addTask()">+</button>
+    </div>
+    <div class="task-list" style="background-color: #272e4b;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
